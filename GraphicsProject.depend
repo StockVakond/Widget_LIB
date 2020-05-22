@@ -1,0 +1,222 @@
+# depslib dependency file v1.0
+1582710213 source:c:\users\levib\desktop\graphkit\main.cpp
+	"graphics.hpp"
+	<vector>
+	<iostream>
+	<cmath>
+	<sstream>
+
+1581951296 c:\users\levib\desktop\graphkit\include\graphics.hpp
+	<string>
+
+1585319096 source:c:\users\levib\desktop\prog bead\main.cpp
+	"graphics.hpp"
+	<vector>
+	<iostream>
+	<cmath>
+	<sstream>
+
+1581951296 c:\users\levib\desktop\prog bead\include\graphics.hpp
+	<string>
+
+1588148723 source:c:\users\levib\desktop\bead2\application.cpp
+	"application.h"
+	"widget.h"
+	<string>
+	<vector>
+	<fstream>
+	<iostream>
+
+1587556780 source:c:\users\levib\desktop\bead2\counter.cpp
+	"counter.h"
+	<string>
+	<sstream>
+
+1588149776 source:c:\users\levib\desktop\bead2\drop_list.cpp
+	"drop_list.h"
+	"roller.h"
+
+1588149866 source:c:\users\levib\desktop\bead2\main.cpp
+	"application.h"
+	"widget.h"
+	"counter.h"
+	"drop_list.h"
+	<string>
+	<vector>
+	<fstream>
+
+1587123843 source:c:\users\levib\desktop\bead2\widget.cpp
+	"widget.h"
+
+1587338810 c:\users\levib\desktop\bead2\widget.h
+	<string>
+	"graphics.hpp"
+	"application.h"
+
+1581954896 c:\users\levib\desktop\bead2\include\graphics.hpp
+	<string>
+
+1587159201 c:\users\levib\desktop\bead2\application.h
+	<string>
+	<vector>
+
+1587334113 c:\users\levib\desktop\bead2\counter.h
+	<cmath>
+	"widget.h"
+	"help.h"
+
+1588150124 c:\users\levib\desktop\bead2\drop_list.h
+	"widget.h"
+	"roller.h"
+	<vector>
+	<string>
+
+1587054806 c:\users\levib\desktop\bead2\help.h
+	<sstream>
+	<string>
+
+1587556138 source:c:\users\levib\desktop\bead2\help.cpp
+	"help.h"
+	"graphics.hpp"
+
+1587556413 c:\users\levib\desktop\bead2\roller.h
+	"graphics.hpp"
+	"widget.h"
+
+1587125597 source:c:\users\levib\desktop\bead2\roller.cpp
+	"roller.h"
+	<iostream>
+
+1589118920 source:c:\users\levib\documents\github\harmadik-beadando\application.cpp
+	"application.h"
+	"widget.h"
+	<string>
+	<vector>
+	<fstream>
+
+1589050964 c:\users\levib\documents\github\harmadik-beadando\application.h
+	<string>
+	<vector>
+
+1589119439 c:\users\levib\documents\github\harmadik-beadando\widget.h
+	<string>
+	"graphics.hpp"
+	"application.h"
+
+1588874917 c:\users\levib\documents\github\harmadik-beadando\include\graphics.hpp
+	<string>
+
+1589050449 source:c:\users\levib\documents\github\harmadik-beadando\counter.cpp
+	"counter.h"
+	<string>
+	<sstream>
+
+1589119439 c:\users\levib\documents\github\harmadik-beadando\counter.h
+	<cmath>
+	"widget.h"
+	"help.h"
+
+1588874917 c:\users\levib\documents\github\harmadik-beadando\help.h
+	<sstream>
+	<string>
+
+1589050419 source:c:\users\levib\documents\github\harmadik-beadando\drop_list.cpp
+	"drop_list.h"
+	"roller.h"
+
+1589050305 c:\users\levib\documents\github\harmadik-beadando\drop_list.h
+	"widget.h"
+	"roller.h"
+	<vector>
+	<string>
+
+1589044919 c:\users\levib\documents\github\harmadik-beadando\roller.h
+	"graphics.hpp"
+	<iostream>
+
+1588874917 source:c:\users\levib\documents\github\harmadik-beadando\help.cpp
+	"help.h"
+	"graphics.hpp"
+
+1589069101 source:c:\users\levib\documents\github\harmadik-beadando\main.cpp
+	"thisapp.h"
+
+1589118975 source:c:\users\levib\documents\github\harmadik-beadando\roller.cpp
+	"roller.h"
+	<iostream>
+
+1589050411 source:c:\users\levib\documents\github\harmadik-beadando\widget.cpp
+	"widget.h"
+
+1588431770 c:\users\levib\documents\github\harmadik-beadando\thisapp.cpp
+	"application.h"
+	"widget.h"
+	"counter.h"
+	"drop_list.h"
+	<string>
+	<vector>
+	<fstream>
+
+1589119223 source:c:\users\levib\documents\github\harmadik-beadando\thisapp.cpp
+	"thisapp.h"
+	<vector>
+
+1589119439 c:\users\levib\documents\github\harmadik-beadando\thisapp.h
+	"application.h"
+	"brain.h"
+	"widget.h"
+	"tile.h"
+	"tickbox.h"
+	"textview.h"
+	"button.h"
+	"comp.h"
+	<vector>
+
+1589119439 c:\users\levib\documents\github\harmadik-beadando\tile.h
+	"widget.h"
+	"brain.h"
+	"tickbox.h"
+	<vector>
+
+1589055277 source:c:\users\levib\documents\github\harmadik-beadando\button.cpp
+	"button.h"
+
+1589118975 source:c:\users\levib\documents\github\harmadik-beadando\tile.cpp
+	"tile.h"
+	"brain.h"
+	<vector>
+	<cmath>
+
+1589118885 c:\users\levib\documents\github\harmadik-beadando\brain.h
+	<vector>
+
+1589118975 source:c:\users\levib\documents\github\harmadik-beadando\brain.cpp
+	"brain.h"
+	"tile.h"
+
+1589075965 source:c:\users\levib\documents\github\harmadik-beadando\tickbox.cpp
+	"tickbox.h"
+
+1589119439 c:\users\levib\documents\github\harmadik-beadando\tickbox.h
+	"widget.h"
+
+1589065405 source:c:\users\levib\documents\github\harmadik-beadando\textview.cpp
+	"textview.h"
+	<sstream>
+
+1589119439 c:\users\levib\documents\github\harmadik-beadando\textview.h
+	"widget.h"
+
+1589119027 source:c:\users\levib\documents\github\harmadik-beadando\comp.cpp
+	"comp.h"
+	<cmath>
+
+1589113490 c:\users\levib\documents\github\harmadik-beadando\comp.h
+	<vector>
+	"tile.h"
+	"brain.h"
+
+1589053530 c:\users\levib\documents\github\harmadik-beadando\button.h
+	"widget.h"
+	<string>
+
