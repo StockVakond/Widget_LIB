@@ -2,16 +2,17 @@
 using namespace std;
 using namespace genv;
 
-Button::Button(Application *ca,int px, int py,int sx,int sy,string _text, int _state):Widget(ca,px,py,sx,sy, _state)
+Button::Button(Application *ca,int px, int py,int sx,int sy,string _text, int _state, int _id)
+:Widget(ca,px,py,sx,sy, _state)
     {
+        id=_id;
         b_text=_text;
-        pressed=false;
         clicked_on=false;
     }
 void Button::handle(event ev){
     if(ev.type==ev_mouse&&ev.button==btn_left){
-        pressed=true;
         clicked_on=true;
+        current_app->gombfv(id);
         draw();
         gout.refresh();
     }

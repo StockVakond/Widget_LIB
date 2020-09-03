@@ -40,14 +40,13 @@
 			<Add library="lib/libSDLmain.a" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="MyApp.cpp" />
 		<Unit filename="application.cpp" />
 		<Unit filename="application.h" />
 		<Unit filename="brain.cpp" />
 		<Unit filename="brain.h" />
 		<Unit filename="button.cpp" />
 		<Unit filename="button.h" />
-		<Unit filename="comp.cpp" />
-		<Unit filename="comp.h" />
 		<Unit filename="counter.cpp" />
 		<Unit filename="counter.h" />
 		<Unit filename="drop_list.cpp" />
@@ -55,17 +54,15 @@
 		<Unit filename="help.cpp" />
 		<Unit filename="help.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="myapp.h" />
 		<Unit filename="roller.cpp" />
 		<Unit filename="roller.h" />
+		<Unit filename="textedit.cpp" />
 		<Unit filename="textedit.h" />
 		<Unit filename="textview.cpp" />
 		<Unit filename="textview.h" />
-		<Unit filename="thisapp.cpp" />
-		<Unit filename="thisapp.h" />
 		<Unit filename="tickbox.cpp" />
 		<Unit filename="tickbox.h" />
-		<Unit filename="tile.cpp" />
-		<Unit filename="tile.h" />
 		<Unit filename="widget.cpp" />
 		<Unit filename="widget.h" />
 		<Extensions>

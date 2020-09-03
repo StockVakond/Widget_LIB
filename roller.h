@@ -14,15 +14,18 @@ protected:
     int rpos_y;
     bool grabbed;
     int dy;
-    int r_y;
+    int states;
+    double r_y;
 public:
 
-    Roller(int px, int py, int sx, int sy,int s_elements);
+    Roller(int px, int py, int sx, int sy,int s_elements, int _states);
     int gety(){return rpos_y;}
      void handle(event ev);
      void draw()const;
      void roll(int a);
      void button_release();
+     bool is_grabbed(){return grabbed;};
+     void set_state(int st){states=st;r_y=size_y/(st);};
 };
 
 

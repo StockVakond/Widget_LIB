@@ -220,3 +220,129 @@
 	"widget.h"
 	<string>
 
+1590142592 source:c:\users\levib\documents\github\widget_lib\application.cpp
+	"application.h"
+	"widget.h"
+	<string>
+	<vector>
+	<fstream>
+
+1590161090 c:\users\levib\documents\github\widget_lib\application.h
+	<string>
+	<vector>
+
+1589119439 c:\users\levib\documents\github\widget_lib\widget.h
+	<string>
+	"graphics.hpp"
+	"application.h"
+
+1588874917 c:\users\levib\documents\github\widget_lib\include\graphics.hpp
+	<string>
+
+1590142814 source:c:\users\levib\documents\github\widget_lib\brain.cpp
+	"brain.h"
+
+1590142793 c:\users\levib\documents\github\widget_lib\brain.h
+	<vector>
+
+1590161037 source:c:\users\levib\documents\github\widget_lib\button.cpp
+	"button.h"
+
+1590160927 c:\users\levib\documents\github\widget_lib\button.h
+	"widget.h"
+	<string>
+
+1589050449 source:c:\users\levib\documents\github\widget_lib\counter.cpp
+	"counter.h"
+	<string>
+	<sstream>
+
+1589119439 c:\users\levib\documents\github\widget_lib\counter.h
+	<cmath>
+	"widget.h"
+	"help.h"
+
+1588874917 c:\users\levib\documents\github\widget_lib\help.h
+	<sstream>
+	<string>
+
+1590160398 source:c:\users\levib\documents\github\widget_lib\drop_list.cpp
+	"drop_list.h"
+	"roller.h"
+	<iostream>
+	<cmath>
+
+1590159829 c:\users\levib\documents\github\widget_lib\drop_list.h
+	"widget.h"
+	"roller.h"
+	<vector>
+	<string>
+
+1590158277 c:\users\levib\documents\github\widget_lib\roller.h
+	"graphics.hpp"
+	<iostream>
+
+1588874917 source:c:\users\levib\documents\github\widget_lib\help.cpp
+	"help.h"
+	"graphics.hpp"
+
+1590152582 source:c:\users\levib\documents\github\widget_lib\main.cpp
+	"myapp.h"
+
+1590141900 c:\users\levib\documents\github\widget_lib\thisapp.h
+	"application.h"
+	"brain.h"
+	"widget.h"
+	"tickbox.h"
+	"textview.h"
+	"button.h"
+	<vector>
+
+1589119439 c:\users\levib\documents\github\widget_lib\tickbox.h
+	"widget.h"
+
+1590162373 c:\users\levib\documents\github\widget_lib\textview.h
+	"widget.h"
+
+1590155476 source:c:\users\levib\documents\github\widget_lib\roller.cpp
+	"roller.h"
+	<iostream>
+
+1590161618 source:c:\users\levib\documents\github\widget_lib\textview.cpp
+	"textview.h"
+	<sstream>
+
+1589119223 source:c:\users\levib\documents\github\widget_lib\thisapp.cpp
+	"thisapp.h"
+	<vector>
+
+1589119439 source:c:\users\levib\documents\github\widget_lib\tickbox.cpp
+	"tickbox.h"
+
+1589050411 source:c:\users\levib\documents\github\widget_lib\widget.cpp
+	"widget.h"
+
+1590165098 source:c:\users\levib\documents\github\widget_lib\myapp.cpp
+	"myapp.h"
+	<vector>
+	<iostream>
+
+1590163111 c:\users\levib\documents\github\widget_lib\myapp.h
+	"application.h"
+	"brain.h"
+	"widget.h"
+	"tickbox.h"
+	"textview.h"
+	"button.h"
+	"drop_list.h"
+	"textedit.h"
+	<vector>
+
+1590169059 source:c:\users\levib\documents\github\widget_lib\textedit.cpp
+	"textedit.h"
+	<iostream>
+
+1590169009 c:\users\levib\documents\github\widget_lib\textedit.h
+	"widget.h"
+	<vector>
+

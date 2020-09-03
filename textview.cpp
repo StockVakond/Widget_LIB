@@ -17,10 +17,4 @@ void Textview::draw()const{
 }
 void Textview::handle(genv::event ev){
 }
-void Textview::set_textnow(int t){
-    stringstream ss;
-    string temp_;
-    ss<<t;
-    ss>>temp_;
-    dtext="x"+temp_;
-}
+

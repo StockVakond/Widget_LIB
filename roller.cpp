@@ -2,18 +2,13 @@
 #include <iostream>
 using namespace std;
 using namespace genv;
-Roller::Roller(int px, int py, int sx, int sy,int s_elements):
-        pos_x(px),pos_y(py),size_x(sx),size_y(sy)
+Roller::Roller(int px, int py, int sx, int sy,int s_elements, int _states):
+        pos_x(px),pos_y(py),size_x(sx),size_y(sy), states(_states)
         {
             rpos_y=0;
             grabbed = false;
             dy=0;
-            int hanyferel=sy/(genv::gout.cascent()+genv::gout.cdescent()+4);
-            int states=s_elements-hanyferel-1;
-            if(states>=1)
-                r_y=sy/states;
-            else
-                r_y=sy;
+            r_y=size_y/(states);
         }
 
 void Roller::roll(int a){

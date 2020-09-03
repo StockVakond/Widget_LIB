@@ -14,19 +14,21 @@ protected:
     int element_size=genv::gout.cascent()+genv::gout.cdescent()+4;
     int drpos;
     double w;
+    int states;
     int top_order=0;
     Roller *rlr;
+    int hanyferel;
 
 public:
     Droplist(Application *, int px, int py, int sx, int sy, vector<string>_elements, int _state);
      void draw()const;
      void handle(genv::event ev);
-     string getvalue();
+     string getvalue(int id);
      void button_release();
     int get_id(){return order_of_active;}
     void addelement(string);
-    void remelement(int id);
-    void reset_id(){order_of_active=min(order_of_active, int(elements.size()));}
+    void remelement();
+    void reset_id(){order_of_active=min(order_of_active, int(elements.size())-1);}
 
 };
 

@@ -13,7 +13,6 @@ public:
     Textview(Application *ca,int px, int py,int sx,int sy,string _text, int _state,bool bg);
     void draw()const;
     void handle(genv::event ev);
-    void set_textnow(int t);
     void set_text(string t){dtext=t;};
 };
 
